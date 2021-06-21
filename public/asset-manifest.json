@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e10f4141.chunk.css",
+    "main.js": "/static/js/main.bbc1f7eb.chunk.js",
+    "main.js.map": "/static/js/main.bbc1f7eb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.043fba5c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.043fba5c.js.map",
+    "static/css/2.d26f3517.chunk.css": "/static/css/2.d26f3517.chunk.css",
+    "static/js/2.be69eece.chunk.js": "/static/js/2.be69eece.chunk.js",
+    "static/js/2.be69eece.chunk.js.map": "/static/js/2.be69eece.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.d26f3517.chunk.css.map": "/static/css/2.d26f3517.chunk.css.map",
+    "static/css/main.e10f4141.chunk.css.map": "/static/css/main.e10f4141.chunk.css.map",
+    "static/js/2.be69eece.chunk.js.LICENSE.txt": "/static/js/2.be69eece.chunk.js.LICENSE.txt",
+    "static/media/Bitcoin-Store.e7eddafd.png": "/static/media/Bitcoin-Store.e7eddafd.png",
+    "static/media/ContactUs.592d1545.jpg": "/static/media/ContactUs.592d1545.jpg",
+    "static/media/T1.d359169d.png": "/static/media/T1.d359169d.png",
+    "static/media/T1_scale2.65f06484.jpg": "/static/media/T1_scale2.65f06484.jpg",
+    "static/media/T1_scale3.e4fe9c4e.jpg": "/static/media/T1_scale3.e4fe9c4e.jpg",
+    "static/media/mdb.css": "/static/media/arrow_right.0897f985.svg",
+    "static/media/bitcoinCrash.14ea0b07.jpg": "/static/media/bitcoinCrash.14ea0b07.jpg",
+    "static/media/bitcoinLogo.71b3efcc.png": "/static/media/bitcoinLogo.71b3efcc.png",
+    "static/media/cartEmpty.87842bb3.png": "/static/media/cartEmpty.87842bb3.png",
+    "static/media/Catalog.css": "/static/media/catalogBackgroud.460440e3.jpg",
+    "static/media/all.min.css": "/static/media/fa-solid-900.f4f93856.woff",
+    "static/media/message-sent.aa534754.jpg": "/static/media/message-sent.aa534754.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.043fba5c.js",
+    "static/css/2.d26f3517.chunk.css",
+    "static/js/2.be69eece.chunk.js",
+    "static/css/main.e10f4141.chunk.css",
+    "static/js/main.bbc1f7eb.chunk.js"
+  ]
+}
