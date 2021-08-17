@@ -8,11 +8,14 @@ var logger = require('morgan');
 var passport = require("passport")
 var multer = require('multer');
 var indexRouter = require('./routes/index');
-var apiRouter = require('./routes/api');
-
-// var imagesRouter = require('./routes/images');
-// var loginRouter = require('./routes/login')
-
+var mailsRouter = require('./routes/mails');
+var blogsRouter = require('./routes/blogs');
+var commentsRouter = require('./routes/comments');
+var postsRouter = require('./routes/posts');
+var productsRouter = require('./routes/products');
+var usersRouter = require('./routes/users');
+var storeRouter = require('./routes/store');
+var ordersRouter = require('./routes/orders');
 
 var app = express();
 
@@ -31,6 +34,18 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 
+app.use('/', indexRouter);
+app.use('/mails', mailsRouter);
+app.use('/users',usersRouter)
+app.use('/blogs',blogsRouter)
+app.use('/products',productsRouter)
+app.use('/store',storeRouter)
+app.use('/comments',commentsRouter)
+app.use('/posts',postsRouter)
+app.use('/orders',ordersRouter)
+
+//pictures uploading
+
 var storage = multer.diskStorage({
   destination: (req, file, cb) => {
       cb(null, 'uploads');
@@ -38,9 +53,7 @@ var storage = multer.diskStorage({
   filename: (req, file, cb) => {
       cb(null, file.originalname);
   }
-  // filename: (req, file, cb) => {
-  //     cb(null, Date.now() + file.originalname);
-  // }
+  
 });
 
 
@@ -60,10 +73,7 @@ app.use((req, res, next) => {
 })
 
 
-app.use('/', indexRouter);
-app.use('/api', apiRouter);
-// app.use('/uploads', imagesRouter);
-// app.use('/login', loginRouter)
+
 
 
 // catch 404 and forward to error handler
