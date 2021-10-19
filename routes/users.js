@@ -19,7 +19,6 @@ router.get('/', GetUsers.usersIndex);
 router.get('/:id', GetOneUser.findOneUser);
 router.post('/jwt', LoginUser.Login);
 router.post('/', AddUser.addUser);
-// router.put('/:id', UpdateUser.updateUser);
 router.delete('/:id', DeleteUser.deleteUser);
 router.patch('/:id', UpdateUser.updateUser);
 
